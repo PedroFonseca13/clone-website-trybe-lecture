@@ -1,0 +1,120 @@
+:root {
+  --color-green-strong: #0a7e51;
+  --color-text-gray: #323f3a; 
+  --color-text-paragraph: #475550;
+  --trybe-green: #11a36a;
+}
+
+/* RESET */
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero-container {
+  max-width: 60%;
+}
+
+.header {
+  background-image: url('images/smiling-image.jpg');
+  background-size: cover;
+  background-position: 50% 25%;
+  padding: 60px 30px 40px 30px;
+}
+
+.hero-title {
+  color: var(--color-green-strong);
+  font-size: 2.81em;
+  font-weight: 600;
+  line-height: 55px;
+  margin-bottom: 30px;
+}
+
+.hero-paragraph {
+  color: var(--color-text-gray);
+  max-width: 80%;
+  text-align: left;
+}
+
+.button {
+  background-color: var(--trybe-green);
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.25em;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+.market {
+  padding: 70px 30px;
+  text-align: center;
+}
+
+.market-heading {
+  color: var(--trybe-green);
+  font-size: 1.75em;
+  font-weight: 600;
+  line-height: 42px;
+  margin-bottom: 30px;
+}
+
+.market-paragraph {
+  color: var(--color-text-paragraph);
+  max-width: 60%;
+  margin: auto;
+}
+
+.student-testimonial-container {
+  margin: auto;
+  padding: 30px 70px 90px 70px;
+  width: 80%;
+}
+
+.student-testimonial {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  width: 30%;
+}
+
+.picture {
+  border-radius: 100%;
+  width: 100px;
+}
+
+.learning {
+  background-color: #f5f5f5;
+  padding: 30px 70px;
+}
+
+.learning-text {
+  float: left;
+  max-width: 35%;
+  margin-left: 30px;
+}
+
+.learning li {
+  list-style: square;
+  margin-bottom: 25px;
+}
+.learning-img {
+  float: right
+  margin-right: 60px
+}
+
+.learning-button {
+  clear: both;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.learning-button h3 {
+  margin: 30px;
+}
